@@ -1,0 +1,15 @@
+[01-Aug-2024 11:46:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Can't connect to MySQL server on '103.229.73.15:3306' (111) in /home/zentopup/api.zentopup.id/cek.php:7
+Stack trace:
+#0 /home/zentopup/api.zentopup.id/cek.php(7): mysqli_connect()
+#1 {main}
+  thrown in /home/zentopup/api.zentopup.id/cek.php on line 7
+[01-Aug-2024 11:47:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Can't connect to MySQL server on '103.229.73.15:3306' (111) in /home/zentopup/api.zentopup.id/cek.php:7
+Stack trace:
+#0 /home/zentopup/api.zentopup.id/cek.php(7): mysqli_connect()
+#1 {main}
+  thrown in /home/zentopup/api.zentopup.id/cek.php on line 7
+[01-Aug-2024 11:49:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Can't connect to MySQL server on '103.229.73.15:3306' (111) in /home/zentopup/api.zentopup.id/cek.php:7
+Stack trace:
+#0 /home/zentopup/api.zentopup.id/cek.php(7): mysqli_connect()
+#1 {main}
+  thrown in /home/zentopup/api.zentopup.id/cek.php on line 7

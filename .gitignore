@@ -1,0 +1,65 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+!application/*/.htaccess
+
+composer.lock
+tests/mocks/database/ci_test.sqlite
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+
+# Ignore .env file
+.env
+
+# Ignore vendor directory
+/vendor/
+
+# Ignore node_modules directory (if you use npm/yarn)
+/node_modules/
+
+# Ignore compiled assets
+/public/storage
+/public/hot
+/storage/*.key
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore composer lock file (optional, depending on your workflow)
+composer.lock
+
+# Ignore Laravel specific files
+/bootstrap/cache/*.php
+/storage/logs/*.log
+
